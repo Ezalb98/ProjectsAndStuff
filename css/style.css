@@ -1,0 +1,87 @@
+@font-face {
+  font-family: MyFirstFont;
+  src: url("../blog/src/fonsts/INVASION2000.TTF");
+}
+
+body {
+
+  padding: 20px;
+  background-image: url('../src/gifs/stars.gif');
+}
+
+h4,
+h3,
+h2,
+h5,
+p {
+  color: gold;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font: Arial;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+/* Header/Blog Title */
+.header {
+
+  padding: 10px;
+
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Under th header */
+.under_header {
+  text-align: center;
+  word-spacing: 5cm;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+
+  margin-left: 25%;
+  margin-right: 25%;
+
+  float: center;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 70%;
+
+  padding: 10px;
+
+}
+
+/* Add a card effect for articles */
+.card {
+
+  /*background-image: url('../src/gifs/bluetexture.gif');*/
+  background-color: rgba(32, 95, 131, 0.144);
+  
+  padding: 20px;
+  margin-top: 20px;
+  border-style: inset;
+  border-color: #0080ff;
+
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 4cm;
+  color: black;
+}
