@@ -1,2 +1,2 @@
 # ProjectsAndStuff
-Https://ezalb98.github.io/ProjectAndStuff/
+https://ezalb98.github.io/ProjectsAndStuff/
